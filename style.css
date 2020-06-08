@@ -19,6 +19,11 @@ body {
   margin-top: -500px;
 }
 
+.form-row span {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
 .mid h1 {
   text-align: center;
 }
@@ -34,6 +39,7 @@ input {
 
 .form-row {
   margin: auto !important;
+  /* border: 1px solid red; */
 }
 
 form button {
@@ -69,6 +75,9 @@ form button {
 } */
 
 @media screen and (max-width: 992px) {
+  .mid {
+    margin-top: 20px;
+  }
   h1 {
     font-size: 24px !important;
   }
