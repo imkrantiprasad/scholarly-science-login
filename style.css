@@ -3,16 +3,16 @@
 
 body {
   background: #fff;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: "Arimo", sans-serif !important;
   color: #151515;
 }
 
 .illus2 {
   height: 600px;
-  width: 100%;
-  margin-left: 400px;
-  /* margin-top: 420px; */
+  width: 200%;
+  margin-left: -700px;
+  margin-top: -10px;
 }
 
 .mid {
