@@ -88,15 +88,32 @@ form button {
     font-size: 24px !important;
     margin-top: 80px !important;
   }
-p{
-   font-size: 16px !important;
-}
+
+  p {
+    font-size: 16px !important;
+  }
 
   .illus2 {
     display: none;
+
+  }
+}
+
+@media screen and (max-width: 408px) {
+  body {
+    overflow-x: hidden;
   }
 
-  .illus {
-    display: none;
+  .illus2 {
+    display: block;
+    height: 200px;
+    width: 200%;
+    padding: 0;
+    margin: 0;
+    margin-left: -300px;
+  }
+
+  .mid {
+    margin-top: -170px;
   }
 }
