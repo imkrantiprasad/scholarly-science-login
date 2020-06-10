@@ -3,9 +3,11 @@
 
 body {
   background: #fff;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   font-family: "Arimo", sans-serif !important;
   color: #151515;
+  margin: 0;
+  padding: 0;
 }
 
 .illus2 {
@@ -102,18 +104,5 @@ form button {
 @media screen and (max-width: 408px) {
   body {
     overflow-x: hidden;
-  }
-
-  .illus2 {
-    display: block;
-    height: 200px;
-    width: 200%;
-    padding: 0;
-    margin: 0;
-    margin-left: -300px;
-  }
-
-  .mid {
-    margin-top: -170px;
   }
 }
